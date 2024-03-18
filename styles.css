@@ -29,6 +29,11 @@ The designs were created to the following widths:
 - Family: [Inter](https://fonts.google.com/specimen/Inter)
 - Weights: 400, 600, 700 */
 
+body {
+  background-color: hsl(0, 0%, 8%);
+  min-width: 100vh;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
