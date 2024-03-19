@@ -37,6 +37,28 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+img {
+  width: 100px;
+  border-radius: 50px;
+}
+
+h1 {
+  color: hsl(0, 0%, 100%);
+}
+
+h3 {
+  color: hsl(75, 94%, 57%);
+}
+
+blockquote {
+  color: hsl(0, 0%, 100%);
+}
+
+ul > li {
+  color: hsl(0, 0%, 100%);
+  list-style: none;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
