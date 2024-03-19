@@ -120,9 +120,9 @@ li:hover {
   text-decoration: none;
 }
 
-@media (min-width: 375px) {
+@media (max-width: 375px) {
   .container {
-    max-width: 340px;
+    width: 90%;
   }
 }
 
