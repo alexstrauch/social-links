@@ -32,6 +32,9 @@ The designs were created to the following widths:
 body {
   background-color: hsl(0, 0%, 8%);
   min-width: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
 }
 
 .attribution {
