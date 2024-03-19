@@ -31,38 +31,88 @@ The designs were created to the following widths:
 
 body {
   background-color: hsl(0, 0%, 8%);
-  min-width: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   font-family: "Inter", sans-serif;
 }
 
+.container {
+  background-color: hsl(0, 0%, 12%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1.2rem;
+  min-width: 340px;
+}
+
 img {
-  width: 100px;
+  width: 80px;
   border-radius: 50px;
+  margin-top: 2.5rem;
 }
 
 h1 {
   color: hsl(0, 0%, 100%);
+  font-size: 1.3rem;
+  font-weight: 700;
+  padding-top: 0.7rem;
+  margin-bottom: auto;
 }
 
 h3 {
   color: hsl(75, 94%, 57%);
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
 }
 
 blockquote {
   color: hsl(0, 0%, 100%);
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding-bottom: 0.1rem;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  padding-left: 0;
+  text-align: center;
+  line-height: 2.5rem;
 }
 
 ul > li {
+  font-size: 0.8rem;
+  font-weight: 600;
   color: hsl(0, 0%, 100%);
   list-style: none;
+  width: 16rem;
+  height: 2.5rem;
+  background-color: hsl(0, 0%, 20%);
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+li:hover {
+  color: hsl(0, 0%, 8%);
+  background-color: hsl(75, 94%, 57%);
+  cursor: pointer;
 }
 
 .attribution {
-  font-size: 11px;
+  font-size: 0.6rem;
   text-align: center;
+  color: hsl(0, 0%, 100%);
+  margin-top: 0.5rem;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: hsl(75, 94%, 57%);
+  text-decoration: none;
 }
